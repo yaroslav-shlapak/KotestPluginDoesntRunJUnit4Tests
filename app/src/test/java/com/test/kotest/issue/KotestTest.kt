@@ -5,7 +5,7 @@ import io.kotest.matchers.shouldBe
 
 class KotestTest : FreeSpec({
 
-    "addition is correct"- {
+    "addition is correct" {
         2 + 2 shouldBe 4
     }
 })
