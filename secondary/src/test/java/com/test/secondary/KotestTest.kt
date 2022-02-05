@@ -1,4 +1,4 @@
-package com.test.kotest.issue
+package com.test.secondary
 
 import io.kotest.core.spec.style.FreeSpec
 import io.kotest.matchers.shouldBe

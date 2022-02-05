@@ -17,3 +17,11 @@ buildscript {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+//allprojects {
+//    if (plugins.findPlugin("com.android.application") != null || project.plugins.findPlugin("com.android.library") != null) {
+//        dependencies {
+//             testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.7.2"
+//        }
+//    }
+//}
